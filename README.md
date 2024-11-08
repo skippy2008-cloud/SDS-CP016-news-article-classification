@@ -7,8 +7,10 @@ This project is a collaborative initiative brought to you by SuperDataScience, a
 In this repository, you’ll find the work carried out by our community members in completing an end-to-end machine learning project. Please note that the resources available here is not to be used or copied without referencing the appropriate authors.
 
 ## Project Objectives
+- Build a model which accurately classifies news articles to an appropriate topic
+- Build a web app interface which allows users to use the model
 
-**Link to Dataset:**
+**Link to Dataset:** https://www.kaggle.com/datasets/jacopoferretti/bbc-articles-dataset/data
 
 ## Project Phases & Timeline
 
@@ -18,11 +20,12 @@ In this repository, you’ll find the work carried out by our community members 
 - Feature Selection using correlation analysis, ANOVA tests, F-test, etc.
 
 **Feature Engineering & Model Selection (Week 2 & 3)**
-- Building new features, one hot encoding, feature scaling
-- Handling outliers through statistical and heuristic methods
-- Normalisation or Standardisation of input features is the ML algorithm in the pipeline requires it
-- Model training, comparison and selection
-- Model evaluation and Optimization using K-fold cross validation, hyperparameter tuning
+- Building new features, merging other forms of data
+- Training traditional NLP models
+- Performance evaluation of traditional NLP models
+- Tuning a huggingface model (optional)
+- Use generative model to suggest labels to unlabeled articles (optional)
+- Evaluate suggested labels and use curated articles to improve traditional NLP models (optional)
 
 **Deployment (Week 4)**
 - Building a streamlit app
